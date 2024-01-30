@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Disallow: /assets/
+Sitemap: https://cristianrubio4.github.io/cristianrubio.github.io/sitemap.xml
