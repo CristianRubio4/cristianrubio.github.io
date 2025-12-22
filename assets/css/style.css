@@ -275,7 +275,36 @@ label {
 .pd-50 {
   padding: 5rem 0;
 }
+/* Responsive para Experience Timeline */
+@media (max-width: 768px) {
+    .experience-item {
+        flex-direction: column !important;
+        padding-left: 70px;
+    }
+    
+    .experience-item > div:first-child {
+        width: 100% !important;
+    }
+    
+    .experience-item > div:last-child {
+        left: 35px !important;
+        transform: translateX(0) !important;
+    }
+}
 
+/* Hover effects for cards */
+.project-card:hover,
+.skill-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+}
+
+/* Timeline line mobile */
+@media (max-width: 768px) {
+    .experience-timeline > div:first-child {
+        left: 35px !important;
+    }
+}
 .de-padding {
   padding: 12rem 0;
 }
